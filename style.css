@@ -1,0 +1,50 @@
+body{
+    background-image:url('pencil.jpg');
+    background-repeat: no-repeat;
+ background-size:100%;
+}
+.container{
+    background-color: gray;
+    width:500px;
+    height:550px;
+    border-radius: 8px;
+    position:relative;
+    
+    margin: auto;
+    text-align: center;
+    border:2px solid black;
+}
+.screen{
+ position:absolute;
+ background-color: rgb(106, 150, 150);
+ border:4px solid black;
+ color:black;
+ font-size:60px;
+ text-align: right;
+ 
+ font-weight: 600;
+ height:130px;
+ width:400px;
+ border-radius:6px;
+ top:25px;
+ right:40px;
+}
+.touchpad{
+    position: absolute;
+    border:2px solid black;
+    width:400px;
+    height:340px;
+    bottom:25px;
+    right:50px;
+}
+.butt{
+    width:70px;
+    height:50px;
+    color: black;
+    margin-top:10px;
+    margin-right:10px;
+    border:2px solid black;
+    font-size:35px;
+    font-weight: 600;
+    
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Years:</h1>
+    <p id="yr"></p>
+    <h2>Days:</h2>
+    <p id="days"></p>
+    <h3>Hours</h3>
+    <p id="hr"></p>
+    <h4>Seconds</h4>
+    <p id="se"></p>
+
+
+<script>
+    const a=new Date("2023-07-10");
+const d = new Date("2002-12-22");
+const milia = a.getTime();
+const milid = d.getTime();
+const diff=milia-milid;
+const sec= diff/1000;
+const min=sec/60;
+const hour=min/60;
+const day=hour/24;
+const year=day/366;
+document.getElementById("yr").innerHTML=year;
+document.getElementById("days").innerHTML=day;
+document.getElementById("hr").innerHTML=hour;
+document.getElementById("se").innerHTML=sec;
+</script>
+ 
+</body>
+</html>

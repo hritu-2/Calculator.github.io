@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>CALC</title>
+</head>
+<body>
+    <div class="container">
+    <form name="calc">
+        <input class="screen" type="text" name="scrdis"><br>
+        <input type="button" style="margin-top: 200px;" class="butt" value="1" onclick="calc.scrdis.value+='1'">
+        <input type="button" value="2" class="butt" onclick="calc.scrdis.value+='2'">
+        <input type="button" value="3" class="butt" onclick="calc.scrdis.value+='3'">
+        <input type="button" value="+"class="butt" onclick="calc.scrdis.value+='+'"><br>
+        <input type="button" value="4" class="butt" onclick="calc.scrdis.value+='4'">
+        <input type="button" value="5" class="butt" onclick="calc.scrdis.value+='5'">
+        <input type="button" value="6" class="butt" onclick="calc.scrdis.value+='6'">
+        <input type="button" value="-" class="butt" onclick="calc.scrdis.value+='-'"><br>
+        <input type="button" value="7" class="butt" onclick="calc.scrdis.value+='7'">
+        <input type="button" value="8" class="butt" onclick="calc.scrdis.value+='8'">
+        <input type="button" value="9" class="butt" onclick="calc.scrdis.value+='9'">
+        <input type="button" value="*" class="butt" onclick="calc.scrdis.value+='*'"><br>
+        <input type="button" value="0" class="butt" onclick="calc.scrdis.value+='0'">
+        <input type="button" value="." class="butt" onclick="calc.scrdis.value+='.'">
+        
+        <input type="button" value="=" class="butt" onclick="calc.scrdis.value=eval(calc.scrdis.value)">
+        <input type="button" value="/" class="butt" onclick="calc.scrdis.value+='/'"><br>
+        <input type="button" value="C" style="color:red" class="butt" onclick="calc.scrdis.value=''">
+    </form>
+
+      
+    </div>
+<script>
+    
+</script>
+    
+</body>
+</html>
